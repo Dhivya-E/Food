@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<!--created by K R
+    created for the food contest
+    don't copy it without permission-->
+<html>
+    <head>
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <style>
+            body{
+         background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #2e3192),color-stop(1, #1bffff) ); 
+}
+h1{
+    text-align:center;
+    font-family:"monospace";
+    color:white;
+    text-shadow:2px 2px black;
+}
+.plane1{
+    height:300px;
+    width:80%;
+    background-color:#EE82EE;
+    position:reative;
+    margin:0px 20px 20px 20px;
+    padding:2px 20px 20px 20px;
+    border-radius:20px;
+    font-family:"Comic Sans MS",cursive;
+    box-shadow: 0 0 3px 0 black, 0 3px 10px 0 black;
+    font-size:25px;
+}
+.bowl{
+    height:130px;
+    width:200px;
+    background-color:#a13d2d;
+    position:relative  ;
+    left:30px;
+    top:90px;
+    border-radius:100px 100px 300px 300px;
+}
+.bowltop{
+    height:196px;
+    width:196px;
+    background-color:#a13d2d;
+    position:relative;
+    left:30px;
+    top:-110px;
+    border:2px white solid;
+    border-radius:100px;
+    transform:rotatex(120deg);
+}
+.bowltop2{
+    height:170px;
+    width:185px;
+    background-color:#b9b880;
+    position:absolute ;
+    left:85px;
+    top:123px;
+    border-radius:110px;
+    transform:rotatex(118deg);
+}
+.plane1 h2{
+    position:relative;
+    top:-105px;
+    left:100px;
+}
+.corn{
+    height:10px;
+    width:15px;
+    background-color:#f9e176;
+    position:absolute;
+    top:205px;
+    left:230px;
+    border-radius:10px 10px 5px 5px;
+    box-shadow:-30px 20px #f9e176,-40px -20px #f9e176;
+    animation:move1 7s infinite;
+}
+@keyframes move1{
+    0%{
+        transform:translate(0px);
+    }
+    25%{
+        transform:translate(20px);
+    }
+    50%{
+        transform:translatey(5px);
+    }
+    75%{
+        transform:translatex(-20px);
+    }
+}
+.corn2{
+    height:10px;
+    width:15px;
+    background-color:#f9e176;
+    position:absolute;
+    top:200px;
+    left:150px;
+    border-radius:10px 10px 5px 5px;
+    box-shadow:-20px 25px #f9e176,-40px -15px #f9e176;
+    animation:move2 7s infinite;
+}
+@keyframes move2{
+    0%{
+        transform:translate(0px);
+    }
+    25%{
+        transform:translate(10px);
+    }
+    50%{
+        transform:translate(20px);
+    }
+    75%{
+        transform:translatex(-10px);
+    }
+}
+.plane2{
+     height:350px;
+    width:80%;
+    background-color:#EE82EE;
+    position:reative;
+    margin:0px 20px 20px 20px;
+    padding:2px 20px 20px 20px;
+    border-radius:20px;
+    font-family:"Comic Sans MS",cursive;
+    box-shadow: 0 0 3px 0 black, 0 3px 10px 0 black;
+    font-size:25px;
+}
+.cuptop{
+    position:relative;
+    height:100px;
+    width:100px;
+    left:80px;
+    top:50px;
+    background-color:#a8ccd7;
+    border-radius:0px 0px 50px 50px;
+    border:7px #a8ccd7 solid;
+    overflow:hidden;
+}
+.cuptop:before{
+    content:'';
+    height:220px;
+    width:220px;
+    background-color:orange;
+    position:absolute;
+    top:110px;
+    left:-60px;
+    border-radius:88px;
+    animation:fill 5s infinite;
+}
+@keyframes fill{
+ 
+    0%{
+        transform:translateY(0px) rotate(0deg);
+    }
+    100%{
+        transform:translateY(-100px) rotate(275deg)
+    }
+}
+.circle{
+    position:relative;
+    height:100px;
+    width:94px;
+    left:80px;
+    top:-125px;
+    border-radius:70px;
+    border:10px #edf5f4 solid;
+    background-color:#a8ccd7;
+    transform:rotatex(280deg);
+}
+.handle{
+    height:85px;
+    width:10px;
+    position:relative ;
+    background-color:#a8ccd7;
+    left:130px;
+    top:-190px;
+}
+.bottom{
+    position:relative;
+    height:100px;
+    width:90px;
+    left:80px;
+    top:-40px;
+    border-radius:70px;
+    border:10px #edf5f4 solid;
+    background-color:#a8ccd7;
+    transform:rotatex(280deg);
+}
+.plane2 h2{
+    position:relative;
+    top:-165px;
+    left:100px;
+}
+.plane3{
+    height:320px;
+    width:80%;
+    background-color:#EE82EE;
+    position:reative;
+    margin:0px 20px 20px 20px;
+    padding:2px 20px 20px 20px;
+    border-radius:20px;
+    font-family:"Comic Sans MS",cursive;
+    box-shadow: 0 0 3px 0 black, 0 3px 10px 0 black;
+    font-size:25px;
+}
+.outer{
+    height:200px;
+    width:200px;
+    border-radius:100px;
+    background-color:#5c3317;
+    position:relative ;
+    top:50px;
+    left:35px;
+}
+.inner{
+    height:70px;
+    width:70px;
+    border-radius:35px;
+     background-color:#EE82EE;
+    position:relative ;
+    top:-85px;
+    left:100px;
+}
+.sprinkles{
+    height:15px;
+    width:8px;
+     background-color:green;
+     border-radius:5px;
+    position:relative ;
+    top:-80px;
+    left:100px;
+    transform:rotate(20deg);
+    box-shadow:50px 10px yellow,80px -40px orange,-60px -30px red,-50px -80px blue,-10px -120px pink,80px -80px grey,60px -125px orange;
+}
+.plane3 h2{
+    position:relative;
+    top:-45px;
+    left:90px;
+}
+.sprinkles2{
+    height:10px;
+    width:10px;
+     background-color:red;
+     border-radius:5px;
+    position:relative ;
+    top:-70px;
+    left:120px;
+    transform:rotate(20deg);
+    box-shadow:50px -20px pink,20px -100px red,-60px -10px white,-70px -70px grey,-10px -120px yellow;
+}
+        </style>
+    </head>
+    <body>
+    <h1>K.R Foods 😀</h1>
+    <div class="plane1" onclick="soup()">
+        <div class="bowl"></div>
+        <div class="bowltop"></div>
+        <div class="bowltop2"></div>
+        <div class="corn"></div>
+        <div class="corn2"></div>
+        <h2 >Soup</h2>
+    </div>
+    <div class="plane2" onclick="juice()">
+        <div class="cuptop"></div>
+        <div class="circle"></div>
+         <div class="bottom"></div>
+        <div class="handle"></div>
+        <h2 >Juice</h2>
+    </div>
+     <div class="plane3" onclick="donut()">
+        <div class="outer"></div>
+        <div class="inner"></div>
+        <div class="sprinkles"></div>
+        <div class="sprinkles2"></div>
+         <h2 >Donut</h2>
+      </div>  
+      <script>
+          
+function soup(){
+    alert(" A bowl of vegetable soup approximately contains 32 calories🍲.The earliest archaeological evidence for the consumption of soup dates back to 6000 BC, and it was hippopotamus soup!! ")
+    //facts taken from internet//
+ }
+function juice(){
+    alert("100 gram of fruit juice🍹 contains 54 calories.One of the first regularly produced juices was lemonade🍋, appearing in 16th-century Italy.100% fruit juice is a good source of nutrients like vitamin C and potassium. The problem is that too much juice can be an extra source of sugar and calories.")
+}
+function donut(){
+    alert("100 gram of donut🍩 with chocolate contains 452 calories. One of the earliest mentions of doughnut was in Washington Irving's 1809 book A History of New York, from the Beginning of the World to the End of the Dutch Dynasty.📖")
+}
+      </script>
+    </body>
+</html>
